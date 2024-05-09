@@ -33,6 +33,7 @@ struct AspectVGrid<Item: Identifiable, ItemView: View>: View {
             }
         }
     }
+    
     func gridItemWidthThatFits(
         count: Int,
         size: CGSize,
